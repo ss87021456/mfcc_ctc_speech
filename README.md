@@ -1,5 +1,6 @@
 # mfcc_ctc_speech
-Using CTC loss function combine mfcc feature test on youtube dataset
+Using CTC loss function combine mfcc feature and LSTM architect <br>
+test on youtube dataset
 #### Dependency:
 - for create label (gen_label.py) <br>
 python3 - 3.6.1 <br>
