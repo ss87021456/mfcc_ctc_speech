@@ -22,6 +22,7 @@ except ImportError:
 from utils import sparse_tuple_from as sparse_tuple_from
 from utils import pad_sequences as pad_sequences
 
+'''
 def fake_data(num_examples, num_features, num_labels, min_size = 10, max_size=100):
 
     # Generating different timesteps for each fake data
@@ -34,6 +35,7 @@ def fake_data(num_examples, num_features, num_labels, min_size = 10, max_size=10
     labels = np.asarray([np.random.randint(0, num_labels, np.random.randint(1, inputs[i].shape[0], (1,))).astype(np.int64) for i, _ in enumerate(timesteps)])
 
     return inputs, labels
+'''
 
 
 
@@ -125,7 +127,7 @@ print(test_targets.shape)
 print("===============train inputs generate done ==============")
 
 
-inputs_fake, labels_fake = fake_data(num_examples, num_features, num_classes - 1)
+#inputs_fake, labels_fake = fake_data(num_examples, num_features, num_classes - 1)
 
 #print(labels_fake.shape)
 #print(type(labels_fake[0]))
