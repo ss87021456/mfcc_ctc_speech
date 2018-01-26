@@ -14,7 +14,7 @@ python2 - 2.7.14 <br>
 tensorflow - 1.4.0
 #### Usage:
 Step 1 : Download youtube vedio with cc subtitle <br>
-Step 2 : python gen_label.py - to generate clear label <br>
+Step 2 : python3 gen_label.py - to generate clear label <br>
 Step 3 : python mp4_to_cut_wav.py - to generate wav dataset <br>
 Step 4 : python ctc_speech_recognition.py - training <br>
 
